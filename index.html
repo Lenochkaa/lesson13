@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="###">
+        <div class="name">
+        <!-- <label for="">Name</label> -->
+        <input class="name_plce" placeholder="Name" type="text" name="username">
+    </div>
+    <div class="email">
+        <!-- <label for="">Email</label> -->
+        <input class="email_plce" placeholder="Email" type="email" name="username_email">
+    </div>
+    <div class="password">
+        <!-- <label for="">Password</label> -->
+        <input class="password_plce" placeholder="Password" type="password" name="user_password" id="">
+    </div>
+    <div class="radio">
+        <p>Выберите используемый гаджет:</p>
+        <p><input checked type="radio" name="user_radio" id=""> Компьютер</p>
+        <p><input type="radio" name="user_radio" id=""> Ноутбук</p>
+        <p><input type="radio" name="user_radio" id=""> Планшет</p>
+        <p><input type="radio" name="user_radio" id=""> Смартфон</p>
+        <p><input type="radio" name="user_radio" id=""> Смарт-телевизор</p>
+    </div>
+    <div class="checkbox">
+        <p>Выберите предпочитаемый транспорт (не меньше 2-ух):</p>
+        <p><input checked type="checkbox" name="user_check" id="">Машина</p>
+        <p><input type="checkbox" name="user_check" id="">Мотоцикл</p>
+        <p><input type="checkbox" name="user_check" id="">Велосипед</p>
+        <p><input type="checkbox" name="user_check" id="">Ролики</p>
+        <p><input type="checkbox" name="user_check" id="">Скейтборд</p>
+    </div>
+    <div class="file">
+        <p>Выберите аватар:</p>
+        <input type="file" name="" id="">
+    </div>
+    <div class="text">
+        <p>Расскажите о себе:</p>
+        <textarea name="user_text"></textarea>
+    </div>
+    <div class="color">
+        <p>Выберите любимый цвет:</p>
+        <input type="color" name="user_color"> 
+    </div>
+    <!-- <div>
+        <section name="user_sec">
+            <option value="">Красный</option>
+            <option value="">Синий</option>
+            <option value="">Фиолетовый</option>
+            <option value="">Черный</option>
+            <option value="">Желтый</option>
+        </section>
+    </div> -->
+    <div class="user_color">
+        <p>Выберите цвет темы:</p>
+        <select name="user_sec">
+            <option value="">Красный</option>
+            <option value="">Синий</option>
+            <option value="">Фиолетовый</option>
+            <option value="">Черный</option>
+            <option value="">Бежевый</option>
+        </select>
+    </div>
+    <div class="button">
+        <!-- <input type="button" value="Зарегистрироваться"> -->
+        <button class="button_1" type="submit">Зарегистрироваться</button>
+        <button class="button_2" type="reset">Сбросить</button>
+    </div>
+    </form>
+</body>
+</html>
